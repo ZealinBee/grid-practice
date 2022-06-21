@@ -83,4 +83,11 @@ main {
 .trial h4 {
   grid-column: 2/3;
   grid-row: 2/3;
+}
+
+@media (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
